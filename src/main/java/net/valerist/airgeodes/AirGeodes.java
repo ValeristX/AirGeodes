@@ -27,6 +27,7 @@ public class AirGeodes
 
 
         MinecraftForge.EVENT_BUS.register(this);
+        ModFeatures.FEATURES.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
